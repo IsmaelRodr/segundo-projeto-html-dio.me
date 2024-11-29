@@ -24,10 +24,16 @@ body {
     padding: 10px 20px 0px;
 }
 .header {
+    display: flex;
+    justify-content: center;
     background-color: rgb(5, 108, 108);
     min-height: 150px;
 }
 .content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     min-height: 300px;
     padding: 20px;
@@ -35,4 +41,8 @@ body {
 .footer {
     background-color: rgb(99, 56, 240);
     min-height: 150px;
+}
+
+.botoes-formulario{
+    display: flex;
 }
